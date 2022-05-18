@@ -1,0 +1,26 @@
+body{
+	margin: 0px;
+	background-color: #000;
+}
+.container{width: 1170px;margin: auto;}
+
+.navbar{background-color: #fff;height: 65px;width: 100%;text-align: center;
+	position: fixed; overflow: hidden   ;}
+.logo{float: left; margin-top: -9px;}	
+.logo img{height: 75px;width: 95px;}
+.about{float: left; margin-left: 200px;}
+.navbar ul{	margin-top: 0;display: inline-block;
+	list-style: none; padding-left: 0px;}
+.navbar li{display: inline-block;
+	padding: 20px;}
+.navbar ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 35px; }	
+.navbar ul li a:hover{color: #f00; font-weight: bold;}.content{overflow: hidden;}
+.cov{margin-top: 65px;}
+.cov img{width: 1165px;}
+
+.pp{width: 50%;float: right;}
+.pp h2{color: #fff;font-size: 50px;}
+.pp p{color: #fff;font-size: 30px;}
